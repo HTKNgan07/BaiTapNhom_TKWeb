@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #000;  
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    display: flex;
+    height: 800px;
+}
+
+.dh_header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.dh_header a{
+    color: #F5F5F5;
+}
+.dh_header .hRight{
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.dh_header .hRight i{
+    margin: 0 15px;
+}
+.dh_header .hLeft{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.dh_don_hang{
+  width: 50%;
+}
+
+.thanh_toan{
+    width: 50%;
+    border-right: 1px solid #000;
+}
+
+.container_dh{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container_tt{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tieu_de{
+    margin: 40px 0 20px 0;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.hang{
+    display: flex;
+}
+
+.p1{
+    width: 50%;
+}
+
+.p2{
+    width: 20%;
+    text-align: center;
+}
+
+.p3{
+    width: 30%;
+    text-align: end;
+}
+
+.ds_hang{
+    font-size: 20px;
+}
+
+.de_muc{
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.de_muc::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #0000007d;
+    top: 30px;
+}
+
+.chi_tiet{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.chi_tiet .p3{
+    color: #af2727;
+    font-weight: 500;
+}
+
+.chi_tiet::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #0000007d;
+    top: 50px;
+}
+
+.thanh_tien{
+    position: relative;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.thanh_tien::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: #0000007d;
+    top: 40px;
+}
+
+.thanh_tien .p3{
+    color: #af2727;
+}
+
+.chuyen_khoan{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.accept_rules{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    position: relative;
+}
+
+.accept_rules::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #0000007d;
+    bottom: 30px;
+}
+
+.accept_rules p{
+    margin-left: 4px;
+}
+
+.accept_rules a{
+    color: #af2727;
+    text-decoration: underline;
+}
+
+.dathang_btn{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:30px;
+}
+
+.dathang_btn a{
+    color: #fff;
+    background-color: #D22F27;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.path{
+    align-items: center;
+}
+
+.path a:hover{
+    color: #af2727;
+}
+
+.nhap_tt .input_form{
+    margin: 10px 0;
+}
+
+.tt_giaohang .sdt{
+    width: 50%;
+}
+
+.diachi{
+    display: flex;
+}
+
+.diachi .input_form{
+    width: 30%;
+    margin: 10px 50px 0 0;
+}
+
+
+
+.dh_footer .box
+  {
+    padding-left: 100px;
+    
+    align-items: center;
+   
+    display: grid;
+    color: aliceblue;
+    grid-template-columns: repeat(4,1fr);
+  }
+.dh_footer
+{
+    background-color: #111;
+    width: 100%;
+    height: 350px;
+}
+  .dh_footer .box .box2
+{
+    
+    margin-top: -20px;
+}
+.dh_footer .box .box3
+{
+    
+    margin-top: 40px;
+}
+.dh_footer .text
+{
+   line-height: 30px;
+}
+.box4 ul li
+{
+ list-style-type: none;
+ display: inline;
+ border-radius: 10px;
+ font-size: 40px;
+}
+.box4 ul li i
+{
+    margin-top: -20px;
+}
+.box4 .ThanhToan
+{
+    margin-top: 15px;
+}
+.box4 .ThanhToan .img
+{
+    color: #111;
+}
+ .BanQuyen 
+{
+    text-align: center; /* căn giữa nội dung */
+    margin-top: 50px; 
+    align-items: center;
+    
+    color: aliceblue;
+}
+.text
+{
+    color: gray;
+}

@@ -1,0 +1,21 @@
+.form_dn h3::before{
+    width: 400px;
+}
+
+.otp{
+    width: 50%;
+}
+
+.otp div{
+    display: flex;
+}
+
+.otp_btn{
+    margin-left: 20px;
+    background-color: #af2727;
+    color: #fff;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

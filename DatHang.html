@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Đơn hàng</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='DatHang.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='DangNhap.css'>
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="dh_header">
+        <div class="hLeft"><a> Đăng kí nhận ưu đãi 10% </a> </div>
+        <div class="hRight">
+          <a> Liên hệ: 077.1234.567 </a>
+          <a href="DangNhap.html">  <i class='bx bxs-user' style='color:#f5f5f5'></i></a>
+          <a href="index_GioHang.html"><i class='bx bx-shopping-bag' style='color:#ffffff'></i></a>
+          <img src="img/flag.png" alt="">
+          <a> VIE </a>
+          <i class='bx bx-chevron-down' style='color:#ffffff'></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="thanh_toan">
+            <div class="container_tt">
+                <div class="tieu_de">
+                    ANT SHOP - Cửa hàng đồ thể thao chính hãng
+                </div>
+                <div class="path">
+                    <a href="">Giỏ hàng</a>
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" style="color: #af2727;">Thông tin giao hàng</a>
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="">Phương thức thanh toán</a>
+                </div>
+                <h3 style="margin: 10px 0;">Thông tin giao hàng</h3>
+                <div class="nhap_tt">
+                    <form action="" class="tt_giaohang">
+                        <input type="text" class="input_form" placeholder="Nhập họ tên của bạn">
+                        <input type="text" class="input_form" placeholder="Email">
+                        <input type="text" class="input_form" placeholder="Địa chỉ">
+                        <input type="text" class="input_form sdt" placeholder="Số điện thoại">
+                        <div class="diachi">
+                            <input type="text" class="input_form" placeholder="Tỉnh/Thành">
+                            <input type="text" class="input_form" placeholder="Quận/Huyện">
+                            <input type="text" class="input_form" placeholder="Phường/Xã">
+                        </div>
+                    </form>
+                </div>
+                <div class="dathang_btn">
+                    <a href="">THANH TOÁN</a>
+                </div>
+            </div>
+        </div>
+        <div class="don_hang" style="width: 50%;">
+            <div class="container_dh" style="width: 90%;">
+                <div class="tieu_de">
+                    Đơn hàng của bạn
+                </div>
+                <div class="ds_hang">
+                    <div class="hang de_muc">
+                        <p class="p1">SẢN PHẨM</p>
+                        <p class="p2">SỐ LƯỢNG</p>
+                        <p class="p3">TẠM TÍNH</p>
+                    </div>
+                    <div class="hang chi_tiet">
+                        <p class="p1">Giày đá bóng trẻ em Nike Air Zoom Mercurial Vapor 15 Academy</p>
+                        <p class="p2">1</p>
+                        <p class="p3">690,000đ</p>
+                    </div>
+                    <div class="hang chi_tiet">
+                        <p class="p1">Giày đá bóng trẻ em Nike Air Zoom Mercurial Vapor 15 Academy</p>
+                        <p class="p2">3</p>
+                        <p class="p3">690,000đ</p>
+                    </div>
+                    <div class="hang chi_tiet">
+                        <p class="p1">Giày đá bóng trẻ em Nike Air Zoom Mercurial Vapor 15 Academy</p>
+                        <p class="p2">2</p>
+                        <p class="p3">690,000đ</p>
+                    </div>
+                    <div class="hang thanh_tien">
+                        <p class="p1">Tổng</p>
+                        <p class="p2">6</p>
+                        <p class="p3">2,000,000đ</p>
+                    </div>
+                </div>
+                <div class="chuyen_khoan">
+                    <div class="ngan_hang">
+                        <input type="radio" name="CK" id="">
+                        Chuyển khoản ngân hàng
+                    </div>
+                    <div class="tien_mat">
+                        <input type="radio" name="CK" id="">
+                        Thanh toán sau khi nhận hàng
+                    </div>
+                </div>
+                <div class="accept_rules">
+                    <input type="checkbox" name="" id="">
+                    <p>Tôi đã đọc và đồng ý với <span><a href="">Điều khoản</a></span> và <span><a href="">Điều kiện</a></span> của Website</p>
+                </div>
+                <div class="dathang_btn">
+                    <a href="">ĐẶT HÀNG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="dh_footer">
+        <div class="box">
+            <div class="box1" >
+                <h3 style="font-size: 20px;">Công ty thời trang</h3><br/>
+                <div class="text">
+                    <p> Địa chỉ: 02 Nguyễn Đình Chiểu, Vĩnh<br/> Thọ, Nha Trang, Khánh Hòa <br/>
+                        Hotline: 077.1234.567<br/>
+                        Email: cskh@antshop.vn<br/></p>
+                </div>
+               
+            </div>
+            
+            <div class="box2" >
+                <h3 style="font-size: 20px;">Thông tin về ANT SHOP</h3><br/>
+                <div class="text">
+                    <p> Giới thiệu<br/>
+                        Liên hệ<br/>
+                        Shop thời trang ANT SHOP</p>
+                </div>
+              </div>
+    
+            <div class="box3" >
+                <h3 style="font-size: 20px;">Hỗ trợ khách hàng</h3><br/>
+                <div class="text">
+                    <p> Chính sách đổi trả sản phẩm<br/>
+                        Chính sách giao nhận, vận chuyển<br/>
+                        Chính sách bảo mật<br/>
+                        Các điều khoản và điều kiện<br/>
+                        Hỗ trợ và giải đáp thắc mắc
+                        </p>
+                </div>
+              
+            </div>
+    
+            <div class="box4" >
+                <h3 style="font-size: 20px;">Kết nối với chúng tôi</h3><br/>
+                <div>
+                    <ul>
+                        <li>
+                            <i class='bx bxl-facebook-square'></i>
+                        </li>
+                        <li>
+                            <i class='bx bxl-youtube' ></i>
+                        </li>
+                        <li>
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ThanhToan">
+                    <h3 style="font-size: 20px;">Phương thức thanh toán</h3>
+                    <img src="images/footer.png" width="200px" height="3%" style="padding-top: 10px;">
+                </div>
+              </div >
+            </div>
+        <footer class="BanQuyen">
+            <P style="color: gray;" > ® Bản quyền thuộc thời trang ANT SHOP  </P>
+        </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.save_pass{
+    color: #000;
+}
+
+.save_pass a{
+    color: #af2727;
+    text-decoration: underline;
+}
+
+.form_dn h3::before{
+    width: 200px;
+}
